@@ -1,10 +1,10 @@
 import os
+from datetime import date
+from datetime import time
+from datetime import datetime
+from datetime import timedelta
 def main():
 	os.system('cls') 
-	from datetime import date
-	from datetime import time
-	from datetime import datetime
-	from datetime import timedelta
 	now = datetime.today()
 	afd = datetime(2018, 4, 2, 14)
 	time_to_afd = afd-now
